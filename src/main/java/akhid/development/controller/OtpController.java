@@ -10,7 +10,7 @@ import org.jboss.resteasy.annotations.jaxrs.QueryParam;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 
-@Path("/otp")
+@Path("/api/v1/otp")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
 public class OtpController {
